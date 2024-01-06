@@ -1,5 +1,21 @@
 # my-vue-basic-starter-ui
 
+A simple and intuitive Todo App built with Vue.js.
+
+## Features
+
+- Add, edit, and delete tasks.
+- Mark tasks as complete or incomplete.
+- Filter tasks based on their completion status.
+
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+
+
 ## Project setup
 ```
 npm install
