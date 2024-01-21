@@ -1,31 +1,81 @@
 <template>
   <v-app style="background-color: #301934;">
-    <v-container class=" m-5 fill-height d-flex align-center justify-center">
+    <v-container class=" m-5 fill-height d-flex align-center justify-center"> 
       <!-- "ma-4" adds a margin of 20px on all sides -->
       <v-row dense>
-        <v-col cols="12">
-         
-            <v-card>
+        <v-col cols="12" style="background-color: #301934;">
+     
             <v-row dense>
-              <v-col cols="8" style="padding: 0px;" justify-center align-center>
-                  <!-- <v-img
-                    :src="require('@/assets/me.jpg')"
-                    max-height="500px"
-                    max-width="auto"
+              <v-col cols="4" style="padding: 0px;background-color: #301934;" justify-center align-center >
+                <v-card
+                    class="mx-auto mt-2"
+                    max-width="344"
                   >
-                  </v-img> -->
-                  <v-img
-                    class="white--text align-end"
-                    max-height="500px"
-                    max-width="auto"
-                    :src="require('@/assets/me.jpg')"
-                    style="text-align: center;"
-                  >
-                    <v-card-title >K.Jayachandra</v-card-title>
-                  </v-img>
+                    <v-img
+                      :src="require('@/assets/me.jpg')"
+                      height="220px"
+                      cover
+                    ></v-img>
+
+                    <v-card-title>
+                      K.Jayachandra
+                    </v-card-title>
+
+                    <v-card-subtitle>
+                      Senior Software Engineer
+                    </v-card-subtitle>
+                    <v-card-text>
+                      <v-row>
+                        Experienced Full Stack Java Developer adept at designing and implementing robust software solutions. Proficient in Java, Spring framework, and front-end technologies. Committed to creating seamless user experiences and contributing to innovative projects.
+                        <br>
+                      </v-row>
+                      <v-row>
+                        <!-- GitHub Icon -->
+                        <v-col>
+                          <v-btn icon href="https://github.com/jayachandra-jai" target="_blank">
+                            <v-icon>
+                              mdi-github
+                            </v-icon>
+                          </v-btn>
+                        </v-col>
+
+                        <!-- LinkedIn Icon -->
+                        <v-col>
+                          <v-btn icon href="https://www.linkedin.com/in/jayachandra-jai" target="_blank">
+                            <v-icon>
+                              mdi-linkedin
+                            </v-icon>
+                          </v-btn>
+                        </v-col>
+
+                        <!-- WhatsApp Icon -->
+                        <v-col>
+                          <v-btn icon href="https://wa.me/9000204595" target="_blank">
+                            <v-icon>
+                              mdi-whatsapp
+                            </v-icon>
+                          </v-btn>
+                        </v-col>
+
+                        <!-- Facebook Icon -->
+                        <v-col>
+                          <v-btn icon href="https://www.facebook.com/jayachandra189" target="_blank">
+                            <v-icon>
+                              mdi-facebook
+                            </v-icon>
+                          </v-btn>
+                        </v-col>
+                      </v-row>
+                        
+                    </v-card-text>
+                  </v-card>
 
               </v-col>
-              <v-col cols="4">
+              <v-col cols="4" align-self="center" align="center">
+                <v-icon size="300" color="white">mdi-check-circle-outline</v-icon>
+                <h3 style="color: #FFFFFF;">TODO App</h3>
+              </v-col>
+              <v-col cols="4" >
                
                 <v-layout align-center justify-center>
                   
@@ -67,13 +117,11 @@
                   </v-flex>
                 </v-layout>
               </v-col>
+             
             </v-row>
-          </v-card>
           
         </v-col>
-        </v-row>
-      
-
+      </v-row>
     </v-container>
   </v-app>
     
